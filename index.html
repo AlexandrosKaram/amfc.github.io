@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>AMFC</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+            <div class="container nav-container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logopng.png" height="70" class="d-inline-block align-top" alt="Logo">
+                </a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-label="Expand Navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="nav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active" aria-current="page">Αρχική</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#standings" class="nav-link">Βαθμολογία</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#roster" class="nav-link">Ρόστερ</a>
+                        </li>
+                    </ul>                
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- homepage -->
+        <div class="container main-container">
+            <div class="row con-1-row-1">
+                <h1 class="display-4">Άστην Μπύρα - Επίσημη Ιστοσελίδα</h1>
+            </div>
+            <div class="row bg-dark p-100 con-1-row-2">
+                <div class="col-6 con-1-row-2-col-1">
+                    <img src="images/team.jpeg" class="img-fluid max-width:100%; height:auto;" alt="Team Photo">
+                </div>
+                <div class="col-6 con-1-row-2-col-2">
+                    <p>Φωτογραφία της ομάδας έπειτα από την πρώτη της εμφάνιση-νίκη στο πρωτάθλημα</p>
+                </div>
+            </div>
+        </div>
+        <!-- standings section -->
+        <div class="container standings-container" id="standings">
+            <div class="row con-2-row-1">
+                <h2 class="display-4">Βαθμολογία</h2>
+            </div>
+            <div class="row con-2-row-2">
+                <table class="table table-hover table-striped table-light">
+                    <thead>
+                        <tr>
+                            <th colspan="9">ΣΤ ΟΜΙΛΟΣ</th>
+                        </tr>
+                        <tr>
+                            <th>Κατάταξη</th>
+                            <th>Ομάδα</th>
+                            <th>Βαθμολογία</th>
+                            <th>Νίκες</th>
+                            <th>Ισοπ.</th>
+                            <th>Ήττες</th>
+                            <th>ΓΥ</th>
+                            <th>ΓΚ</th>
+                            <th>Παιχνίδια</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-success">
+                            <td>1</td>
+                            <td>Cometas</td>
+                            <td>6</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>31</td>
+                            <td>8</td>
+                            <td>2</td>
+                        </tr>
+                        <tr class="table-warning">
+                            <td>2</td>
+                            <td>Trefa FC</td>
+                            <td>3</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>6</td>
+                            <td>5</td>
+                            <td>1</td>
+                        </tr>
+                        <tr class="table-warning">
+                            <td>3</td>
+                            <td>Καμύ Φερνέ</td>
+                            <td>3</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>8</td>
+                            <td>22</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Άστην Μπύρα</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>10</td>
+                            <td>18</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Tα βουνά</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>3</td>
+                            <td>5</td>
+                            <td>1</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <td colspan="9" style="font-size:14px">
+                            1. Απευθείας πρόκριση στους '16' <br>
+                            2-3. Μπαράζ με 3ο - 2ο άλλου ομίλου
+                        </td>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+        <!-- roster section -->
+        <div class="container roster-container" id="roster">
+            <div class="row con-3-row-1">
+                <h2 class="display-4">Ρόστερ</h2>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 con-3-row-2 g-5">
+                <div class="col player">
+                    <div class="card bg-dark">
+                        <div class="card card-body">
+                            <img src="images/players/nos.jpg" class="img-fluid max-width:100%; height-auto;">
+                        </div>
+                        <div class="card card-footer">
+                            <p>1. Αλέξανδρος Τζάνης<br>- Τερματοφύλακας</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col player">
+                    <div class="card bg-dark">
+                        <div class="card card-body">
+                            <img src="images/players/pavlos.jpg" class="img-fluid max-width:100%; height-auto;">
+                        </div>
+                        <div class="card card-footer">
+                            <p>13. Μαργαρίτης Παύλος<br>- Αμυντικός</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col player">
+                    <div class="card bg-dark">
+                        <div class="card card-body">
+                            <img src="images/players/mparos.jpg" class="img-fluid max-width:100%; height-auto;">
+                        </div>
+                        <div class="card card-footer">
+                            <p>9. Δημήτρης Μπάρος<br>- Αμυντικός</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col player">
+                    <div class="card bg-dark">
+                        <div class="card card-body">
+                            <img src="images/players/karamarkos.jpg" class="img-fluid max-width:100%; height-auto;">
+                        </div>
+                        <div class="card card-footer">
+                            <p>7. Κυριάκος Καραμάρκος<br>- Μέσος</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col player">
+                    <div class="card bg-dark">
+                        <div class="card card-body">
+                            <img src="images/players/jo.jpg" class="img-fluid max-width:100%; height-auto;">
+                        </div>
+                        <div class="card card-footer">
+                            <p>10. Ιορδάνης Κωτιάδης<br>- Μέσος</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col player">
+                    <div class="card bg-dark">
+                        <div class="card card-body">
+                            <img src="images/players/xok.jpg" class="img-fluid max-width:100%; height-auto;">
+                        </div>
+                        <div class="card card-footer">
+                            <p>69. Αλέξανδρος Καραμουχτάρης<br>- Επιθετικός</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-fluid footer-container bg-dark">
+            <div class="row con-4-row-1">
+                <p class="footer">&copy; 2023 Asthn Mpyra FC</p>
+            </div>
+        </div>
+    </footer>
+    <!-- script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

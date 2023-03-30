@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body {
+    /* background-color: #542342; */
+    background-image: url(images/lettersbackground.jpg);
+    color:white;
+    font-family: 'Roboto Slab', serif;
+    font-weight:300;
+    padding-top:50px;
+}
+
+.main-container {
+    margin-top:100px;
+}
+
+.con-1-row-1 {
+    margin-top:40px;
+    margin-bottom:40px;
+}
+
+.con-1-row-2 {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+.standings-container {
+    margin-top: 100px;
+}
+
+.con-2-row-1 {
+    margin-bottom: 40px;
+}
+
+.roster-container {
+    margin-top:100px;
+}
+
+.con-3-row-1 {
+    margin-bottom:40px;
+}
+
+.footer-container {
+    margin-top: 100px;
+    background-color: black;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    text-align:center;
+}
+
+.card{
+    transition: all 1s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    padding:10px;
+}
