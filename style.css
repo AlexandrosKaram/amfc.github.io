@@ -58,7 +58,7 @@ body {
 }
 
 .footer {
-    padding:10px;
+    padding-top:10px;
 }
 
 :root {
@@ -91,4 +91,17 @@ body {
     border: 5px solid #fff !important; 
     box-shadow: #222 1px 0 10px;
     text-decoration: underline;
+}
+
+.ig-link {
+    text-decoration: none;
+}
+
+
+.container-about-us {
+    margin-top: 100px;
+}
+
+.con-4-row-2 {
+    margin-top: 40px;
 }
