@@ -3,6 +3,8 @@
 body {
     /* background-color: #542342; */
     background-image: url(images/lettersbackground.jpg);
+    background-attachment: fixed;
+    background-size: cover;
     color:white;
     font-family: 'Roboto Slab', serif;
     font-weight:300;
@@ -51,11 +53,11 @@ body {
 }
 
 .card{
-    transition: all 1s;
+    transition: all 0.5s;
 }
 
 .card:hover {
-    transform: scale(1.1);
+    transform: scale(1.03);
 }
 
 .footer {
